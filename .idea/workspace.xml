@@ -5,7 +5,8 @@
     <ignored path="FappyBird.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/example17_gosu_tutorial.rb" changelist="447c17f7-2dc0-4cf8-829d-68f469760b97" time="1392817007460" ignored="false" />
-    <file path="/game.rb" changelist="447c17f7-2dc0-4cf8-829d-68f469760b97" time="1392889818134" ignored="false" />
+    <file path="/game.rb" changelist="447c17f7-2dc0-4cf8-829d-68f469760b97" time="1392890927495" ignored="false" />
+    <file path="/CptnRuby.rb" changelist="447c17f7-2dc0-4cf8-829d-68f469760b97" time="1392890450296" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +29,11 @@
       <file leaf-file-name="game.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/game.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="48" selection-start="350" selection-end="350" vertical-scroll-proportion="-2.5766423">
-              <folding />
+            <state line="50" column="39" selection-start="1177" selection-end="1177" vertical-scroll-proportion="0.41747573">
+              <folding>
+                <element signature="e#254#893#0" expanded="false" />
+                <element signature="e#1416#2269#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -38,15 +42,6 @@
         <entry file="file://$USER_HOME$/Desktop/chingu-master/examples/example3_parallax.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="31" column="18" selection-start="906" selection-end="906" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jump.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jump.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="103" column="13" selection-start="1836" selection-end="1836" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -64,6 +59,7 @@
       <list>
         <option value="$USER_HOME$/Downloads/chingu-master/examples/example17_gosu_tutorial.rb" />
         <option value="$PROJECT_DIR$/jump.rb" />
+        <option value="$PROJECT_DIR$/../ruby-physics/chingu/CptnRuby.rb" />
         <option value="$PROJECT_DIR$/game.rb" />
       </list>
     </option>
@@ -87,7 +83,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -98,29 +94,7 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FappyBird" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FappyBird" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FappyBird" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -128,28 +102,6 @@
     <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager" selected="Ruby.game">
-    <configuration default="false" name="example29_asynchronous" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$USER_HOME$/Downloads/chingu-master/examples" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$USER_HOME$/Downloads/chingu-master/examples/example29_asynchronous.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
     <configuration default="false" name="example17_gosu_tutorial" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -238,6 +190,28 @@
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
+    <configuration default="false" name="jump" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="FappyBird" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/jump.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="" />
@@ -315,19 +289,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Ruby.example29_asynchronous" />
-      <item index="1" class="java.lang.String" itemvalue="Ruby.example17_gosu_tutorial" />
-      <item index="2" class="java.lang.String" itemvalue="Ruby.CptnRuby" />
-      <item index="3" class="java.lang.String" itemvalue="Ruby.game" />
-      <item index="4" class="java.lang.String" itemvalue="Ruby.example3_parallax" />
+      <item index="0" class="java.lang.String" itemvalue="Ruby.example17_gosu_tutorial" />
+      <item index="1" class="java.lang.String" itemvalue="Ruby.CptnRuby" />
+      <item index="2" class="java.lang.String" itemvalue="Ruby.game" />
+      <item index="3" class="java.lang.String" itemvalue="Ruby.example3_parallax" />
+      <item index="4" class="java.lang.String" itemvalue="Ruby.jump" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Ruby.game" />
         <item index="1" class="java.lang.String" itemvalue="Ruby.example3_parallax" />
         <item index="2" class="java.lang.String" itemvalue="Ruby.CptnRuby" />
-        <item index="3" class="java.lang.String" itemvalue="Ruby.example17_gosu_tutorial" />
-        <item index="4" class="java.lang.String" itemvalue="Ruby.example29_asynchronous" />
+        <item index="3" class="java.lang.String" itemvalue="Ruby.jump" />
+        <item index="4" class="java.lang.String" itemvalue="Ruby.example17_gosu_tutorial" />
       </list>
     </recent_temporary>
   </component>
@@ -352,7 +326,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289689" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35155097" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35007384" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -426,28 +400,12 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/game.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="13" column="48" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#254#893#0" expanded="false" />
+            <element signature="e#1416#2269#0" expanded="false" />
+          </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jump.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="13" selection-start="1836" selection-end="1836" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/game.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ruby-physics/chingu/CptnRuby.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="24" selection-start="894" selection-end="894" vertical-scroll-proportion="-8.144578" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Desktop/chingu-master/examples/example3_parallax.rb">
@@ -466,8 +424,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/game.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="48" selection-start="350" selection-end="350" vertical-scroll-proportion="-2.5766423">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#254#893#0" expanded="false" />
+            <element signature="e#1416#2269#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jump.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="13" selection-start="1836" selection-end="1836" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#254#893#0" expanded="false" />
+            <element signature="e#1416#2269#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jump.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="22" selection-start="1069" selection-end="1069" vertical-scroll-proportion="1.7208738">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ruby-physics/chingu/CptnRuby.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="252" column="5" selection-start="6728" selection-end="6728" vertical-scroll-proportion="0.37378642">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/chingu-master/examples/example3_parallax.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="18" selection-start="906" selection-end="906" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="39" selection-start="1177" selection-end="1177" vertical-scroll-proportion="0.41747573">
+          <folding>
+            <element signature="e#254#893#0" expanded="false" />
+            <element signature="e#1416#2269#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

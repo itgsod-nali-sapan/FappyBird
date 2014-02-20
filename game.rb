@@ -38,35 +38,24 @@ class Game < Chingu::Window
   end
 end
 
-class Player < GameObject
+class Player < Chingu::GameObject
   trait :bounding_circle, :debug => DEBUG
   traits :collision_detection, :effect, :velocity
 
   def initialize(options={})
     super(options)
     @image = Image["bird_wing_down.png"]
-    self.input = {:holding_right=>:turn_right, :holding_left=>:turn_left, :holding_up=>:accelerate}
+    self.input = {:space=>:jump}
     self.max_velocity = 10
   end
 
-  def accelerate
-    self.velocity_x = Gosu::offset_x(self.angle, 0.5)*self.max_velocity_x
+  def jump
     self.velocity_y = Gosu::offset_y(self.angle, 0.5)*self.max_velocity_y
-  end
-
-  def turn_right
-    # The same can be achieved without trait 'effect' as: self.angle += 4.5
-    rotate(4.5)
-  end
-
-  def turn_left
-    # The same can be achieved without trait 'effect' as: self.angle -= 4.5
-    rotate(-4.5)
+    #rotate(-4.5)
   end
 
   def update
-    self.velocity_x *= 0.95 # dampen the movement
-    self.velocity_y *= 0.95
+    self.velocity_y *= 0.925
 
     @x %= $window.width # wrap around the screen
     @y %= $window.height
