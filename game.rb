@@ -9,9 +9,10 @@ DEBUG = false
 
 class Game < Chingu::Window
   def initialize
-    super(640,400)
+    super(225,400)
     self.input = {:esc => :exit}
 
+    @image = Image["background.png"]
     @player = Player.create(:zorder => 2, :x=>100, :y=>200)
     @score = 0
     @score_text = Text.create("Score: #{@score}", :x => 10, :y => 10, :zorder => 55, :size=>20)
@@ -19,6 +20,8 @@ class Game < Chingu::Window
 
   def update
     super
+
+    @image.draw
 
     if rand(100) < 4 && Star.all.size < 25
       Star.create
