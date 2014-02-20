@@ -5,6 +5,8 @@ require 'chingu'
 include Gosu
 include Chingu
 
+DEBUG = false
+
 class Game < Chingu::Window
   def initialize
     super(640,400)
