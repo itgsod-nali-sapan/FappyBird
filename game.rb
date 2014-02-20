@@ -51,6 +51,7 @@ class Player < Chingu::GameObject
 
   def jump
     self.velocity_y = Gosu::offset_y(self.angle, 0.5)*self.max_velocity_y
+    Sound["flap.wav"].play
     #rotate(-4.5)
   end
 
