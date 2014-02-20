@@ -5,6 +5,7 @@ require 'chingu'
 include Gosu
 include Chingu
 
+# Set to true to see bounding circles used for collision detection
 DEBUG = false
 
 class Game < Chingu::Window
@@ -12,16 +13,13 @@ class Game < Chingu::Window
     super(225,400)
     self.input = {:esc => :exit}
 
-    @image = Image["background.png"]
-    @player = Player.create(:zorder => 2, :x=>100, :y=>200)
+    @player = Player.create(:zorder => 2, :x=>320, :y=>240)
     @score = 0
     @score_text = Text.create("Score: #{@score}", :x => 10, :y => 10, :zorder => 55, :size=>20)
   end
 
   def update
     super
-
-    @image.draw
 
     if rand(100) < 4 && Star.all.size < 25
       Star.create
@@ -46,7 +44,7 @@ class Player < GameObject
 
   def initialize(options={})
     super(options)
-    @image = Image["Starfighter.bmp"]
+    @image = Image["bird_wing_down.png"]
     self.input = {:holding_right=>:turn_right, :holding_left=>:turn_left, :holding_up=>:accelerate}
     self.max_velocity = 10
   end
